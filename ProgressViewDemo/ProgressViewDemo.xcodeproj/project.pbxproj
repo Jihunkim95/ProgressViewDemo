@@ -11,6 +11,7 @@
 		5C6F2C762B3429B600FE3488 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2C752B3429B600FE3488 /* ContentView.swift */; };
 		5C6F2C782B3429B800FE3488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6F2C772B3429B800FE3488 /* Assets.xcassets */; };
 		5C6F2C7C2B3429B800FE3488 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6F2C7B2B3429B800FE3488 /* Preview Assets.xcassets */; };
+		5C6F2C832B342B0F00FE3488 /* LineProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2C822B342B0F00FE3488 /* LineProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		5C6F2C772B3429B800FE3488 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C6F2C792B3429B800FE3488 /* ProgressViewDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProgressViewDemo.entitlements; sourceTree = "<group>"; };
 		5C6F2C7B2B3429B800FE3488 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5C6F2C822B342B0F00FE3488 /* LineProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LineProgressView.swift; path = ../../../LineProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				5C6F2C732B3429B600FE3488 /* ProgressViewDemoApp.swift */,
 				5C6F2C752B3429B600FE3488 /* ContentView.swift */,
+				5C6F2C822B342B0F00FE3488 /* LineProgressView.swift */,
 				5C6F2C772B3429B800FE3488 /* Assets.xcassets */,
 				5C6F2C792B3429B800FE3488 /* ProgressViewDemo.entitlements */,
 				5C6F2C7A2B3429B800FE3488 /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C6F2C762B3429B600FE3488 /* ContentView.swift in Sources */,
+				5C6F2C832B342B0F00FE3488 /* LineProgressView.swift in Sources */,
 				5C6F2C742B3429B600FE3488 /* ProgressViewDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +288,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
@@ -322,7 +326,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
